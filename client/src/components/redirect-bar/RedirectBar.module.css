@@ -1,0 +1,108 @@
+.loginBar{
+    width: 30%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .loginBar > h1{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 40pt;
+    text-align: center;
+    line-height: 40pt;
+    margin-bottom: 10rem;
+  }
+
+  .containerButtons > form > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40pt;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #fff;
+    opacity: 1;
+    width: 250px;
+    margin: 15px;
+    border-radius: 0.5rem;
+    font-family: "open-sans-condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 3px -1px 25px 0px rgba(255,255,255,0.28);
+    -webkit-box-shadow: 3px -1px 25px 0px rgba(255,255,255,0.28);
+    -moz-box-shadow: 3px -1px 25px 0px rgba(255,255,255,0.28);
+    cursor: pointer;
+  }
+
+  .containerButtons > form > button:hover{
+    box-shadow: 3px -1px 25px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 3px -1px 25px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 3px -1px 25px 0px rgba(255,255,255,0.75);
+  }
+
+  .containerButtons > form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerButtons{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  @media (max-width: 900px){
+
+    .loginBar{
+      width: 100%;
+    }
+
+    .loginBar > h1{
+      line-height: 35px;
+      font-size: 20pt;
+      margin-bottom: 0;
+      margin-top: 1rem;
+    }
+
+    .loginBar > h1 >br{
+      display: none;
+    }
+
+    .containerButtons{
+      display: flex;
+      width: 50%;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .containerButtons > form > button{
+      width: 100px;
+      font-size: 16pt;
+    }
+    
+  }
+
+  @media (max-width: 500px){
+
+    .loginBar{
+      justify-content: flex-start;
+      height: 20%;
+    }
+
+    .loginBar > h1{
+      line-height: 35px;
+      font-size: 20pt;
+      margin-bottom: 0;
+      margin-top: 1rem;
+    }
+    
+  }

@@ -1,0 +1,21 @@
+.logout{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color: #fff;
+    align-self: flex-start;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.logout > img{
+    margin-right: 3px;
+}
+
+@media (max-width: 900px){
+
+    .logout{
+        height: 4%;
+    }
+    
+  }

@@ -1,0 +1,23 @@
+.nameBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputName{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    outline: none;
+}
+
+.inputName:focus {
+    border: 2px solid; 
+}
+
+.nameBox > label{
+    margin-top: 10px;
+    color: #fff;
+}

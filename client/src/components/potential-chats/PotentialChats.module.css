@@ -1,0 +1,45 @@
+.allUsers{
+    display: flex;
+    color: #fff;
+    width: 79.5%;
+    height: 34px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.user{
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #65d3b6;
+    border-radius: 3rem;
+    margin: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 2px;
+}
+
+.online{
+    margin-left: 20px;
+    color: #37ff00;
+}
+
+.offline{
+    margin-left: 20px;
+    color: #aeaeae;
+}
+
+
+  @media (max-width: 900px){}
+    .allUsers {
+        height: 9%;
+        display: flex;
+        align-items: center;
+    }

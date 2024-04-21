@@ -1,0 +1,44 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loginBar{
+    width: 30%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .background{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(29,106,85);
+    background: linear-gradient(325deg, rgba(29,106,85,1) 0%, rgba(58,170,140,1) 100%); 
+  }
+
+  .loginBar h1{
+    color: #fff;
+    margin-top: 60px;
+  }
+
+  @media (max-width: 900px){
+    .loginBar h1{
+      margin-top: 0;
+    }
+    
+    .loginBar{
+      width: 70%;
+    }
+  } 

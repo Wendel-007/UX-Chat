@@ -1,0 +1,110 @@
+.background{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+    color: #1d6a55;
+  }
+
+.message1, .message2{
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-size: 70pt;
+  width: 470px;
+  height: 150px;
+  background-color:rgba(255,255,255,0.2);
+  font-family: "open-sans-condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 60px;
+  border-radius: 2rem;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.message2{
+  align-self: flex-end;
+}
+
+.message1 >p, .message2 >p{
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.7;
+}
+
+.message2 > p{
+  bottom: 5px;
+  left: 25rem;
+}
+
+@media (max-width: 900px){
+
+  .background{
+    width: 100%;
+  }
+
+  .message1, .message2{
+    font-size: 50pt;
+    width: 300px;
+    height: 120px;
+    margin: 60px;
+  }
+
+  .message2 > p{
+    bottom: 5px;
+    left: 14rem;
+  }
+
+  .message1 > p{
+    bottom: 5px;
+    left: 1rem;
+  }
+  
+}
+
+@media (max-width: 500px){
+
+  .background{
+    width: 100%;
+  }
+
+  .message1, .message2{
+    font-size: 35pt;
+    width: 230px;
+    height: 100px;
+    margin: 20% 10px 20% 10px
+  }
+
+  .message2 > p{
+    bottom: 5px;
+    left: 10rem;
+  }
+
+  .message1 > p{
+    bottom: 5px;
+    left: 1rem;
+  }
+  
+}
+
+
+@media (max-height: 700px){
+
+  .message1, .message2{
+    margin: 5% 10px 5% 10px;
+  }
+
+  .message2{
+    margin-bottom: 0;
+  }
+  
+}

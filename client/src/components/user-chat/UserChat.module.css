@@ -1,0 +1,50 @@
+.leftContainer, .rigthContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftContainer > div{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    color: #fff;
+}
+
+.rigthContainer > div{
+    display: flex;
+    align-self:flex-end;
+    align-items: center;
+    font-size: 10pt;
+    color: #fff;
+}
+
+.sender, .date{
+    color: black;
+}
+
+.online{
+    margin-left: 20px;
+    color: #37ff00;
+}
+
+.offline{
+    margin-left: 20px;
+    color: #aeaeae;
+}
+
+.textMessage, .date{
+    color: black;
+    font-weight: 100;
+}
+
+.notfications{
+    color: #fff;
+    justify-content: center;
+    background-color: brown;
+    width: 20px;
+    height: 20px;;
+    border-radius: 100%;
+}
+
+

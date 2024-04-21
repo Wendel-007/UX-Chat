@@ -1,0 +1,104 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    background-color: var(--second-color);
+    border-radius: 5px;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.05);
+    border: none;
+    width: 14.25rem;
+    height: 6.813rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  
+  
+  .navChats {
+    border-radius: 5px;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px rgba(29, 106, 85, 0.2);
+    width: 14.25rem;
+    height: 31.625rem;
+    padding: 2rem 0 2.063rem 0;
+    background-color: #00bbc558;
+    overflow-y:hidden;
+  
+    h3 {
+      font-weight: 500;
+      color: var(--main-color);
+      font-size: 24px;
+      margin-bottom: 0.5rem;
+      margin-left: 20px;
+    }
+  }
+
+  .loginInfo {
+    display: flex;
+    color: #fff;
+  }
+
+  .loginInfo > ul{
+    color: #37ff00;
+  }
+
+  .chatsList{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+    overflow-y: scroll;
+  }
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+  .chatsList > div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12pt;
+    color: #3aaa8c;
+    text-shadow: none;
+    border-top: 0.5px solid #d7d7d7;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 900px){
+
+    .navChats{
+      height: 100%;
+      padding: 0 0 0 0;
+      width: 100%;
+    }
+
+    .sidebar {
+      height: 40%;
+    }
+
+    .logo{
+      height: 10%;
+    } 
+    
+  }

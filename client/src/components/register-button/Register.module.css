@@ -1,0 +1,18 @@
+.registerButton{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.registerButton > button{
+    background-color:#e7d022 ;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.3rem;
+}
+
