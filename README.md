@@ -60,14 +60,14 @@ Siga estas instruções para executar o UX-Chat em sua máquina local:
    npm run dev
 
 ### No Terminal (Server)
-1. Navegue até o diretório do cliente:
+2. Navegue até o diretório do server:
    ```bash
    cd server
    npm install
    node index.js
 
 ### No Terminal (Socket)
-1. Navegue até o diretório do cliente:
+3. Navegue até o diretório do socket:
    ```bash
    cd socket
    npm install
