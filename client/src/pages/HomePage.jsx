@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './LandingPage.module.css';
+import style from './HomePage.module.css';
 import { BackLandingPage } from '../components/back-landingpage';
 import {RedirectBar} from '../components/redirect-bar';
 
-export function LandingPage() {
+export function HomePage() {
 
   return (
     <div className={style.container}>

@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom"
 import {AuthContextProvider} from './context/AuthContext.jsx'
 import {Login} from './pages/Login.jsx'
 import {Register} from './pages/Register.jsx'
-import {LandingPage} from './pages/LandingPage.jsx'
+import {HomePage} from './pages/HomePage.jsx'
 import {Chat} from './pages/Chat.jsx'
 
 const router = createBrowserRouter([
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element:  <LandingPage/>,
+        element:  <HomePage/>,
       },
       {
         path: "/chat",
